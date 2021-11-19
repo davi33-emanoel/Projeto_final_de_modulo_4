@@ -31,9 +31,7 @@ Exemplo modificando o nome da placa mãe:
 ```
 { 
     "id":"2", 
-    "nome_do_produto":"placa mãe" 
-   <-- <anteriormente estava placa mãe fuleira>
-    ,
+    "nome_do_produto":"placa mãe" <-- <anteriormente estava placa mãe fuleira>,
     "fabricante_do_produto":"Giba",
     "valor_do_produto":"um milhao de dolares",
     "modo_de_pagamento":"rim",
