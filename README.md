@@ -46,4 +46,4 @@ que teve algum atributo modificado e colocar no caminho, ```http://localhost:300
 
 Por ultimo a rota de delete que consiste em utilizar :```http://localhost:3000/produtos/<o id do produto a ser excluido>.```
 
-Depois pode se verificar na rota get que eles não esta mais lá.
+Depois você pode verificar na rota get que eles não esta mais lá.
