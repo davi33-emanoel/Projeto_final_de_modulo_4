@@ -42,9 +42,9 @@ Exemplo modificando o nome da placa mãe:
     "quantidade_de_produtos":"1"
 }
 ```
-Agora para testar a rota de get basta utilizar ```:http://localhost:3000/produtos```
+Agora para testar a rota de get basta utilizar :```http://localhost:3000/produtos```
 a lista de produtos cadastrados ira aparecer no consumidor de api ou navegador
 
-Por ultimo a rota de delete que consiste em utilizar ```:http://localhost:3000/produtos/<o id do produto a ser excluido>.```
+Por ultimo a rota de delete que consiste em utilizar :```http://localhost:3000/produtos/<o id do produto a ser excluido>.```
 
 Depois pode se verificar na rota get que eles não esta mais lá.
