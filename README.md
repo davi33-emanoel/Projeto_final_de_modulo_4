@@ -25,7 +25,7 @@ ps: É necessario criar um produto no inicio pois ainda esta usando banco de dad
 
 Para testar a rota de modificação basta usar a seguinte rota :```http://localhost:3000/produtos/<o id do produto que vocẽ criou anteriormente>``` 
 
-Segue abaixo como o exemplo de como modificar algum parametro da entidade.
+Segue abaixo exemplo de como modificar algum parametro da entidade.
 
 Exemplo modificando o nome da placa mãe:
 ```
@@ -41,7 +41,8 @@ Exemplo modificando o nome da placa mãe:
 }
 ```
 Agora para testar a rota de get basta utilizar :```http://localhost:3000/produtos```
-a lista de produtos cadastrados ira aparecer no consumidor de api ou navegador
+a lista de produtos cadastrados ira aparecer no consumidor de api ou navegador, para ver a modificação feita anteriormente basta localizar a id do produto
+que teve algum atributo modificado e colocar no caminho, ```http://localhost:3000/produtos/<id do produto qual você modificou o atributo>```
 
 Por ultimo a rota de delete que consiste em utilizar :```http://localhost:3000/produtos/<o id do produto a ser excluido>.```
 
