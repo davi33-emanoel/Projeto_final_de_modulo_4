@@ -1,5 +1,5 @@
 # Projeto_final_de_modulo_4
-Para poder utilizar o projeto é só abrir o terminal e rodar primeiramente o comando (npm init) e ir preenchendo os dados depois rodar o comando (npm i) sem os 
+Para poder utilizar o projeto basta baixar em sua maquina abrir o vscode ou seu editor de código preferido abrir a pasta do projeto nele, e abrir o terminal e rodar primeiramente o comando (npm init) e ir preenchendo os dados depois rodar o comando (npm i) sem os 
 parênteses no qual já ira isntalar tudo que for necessario.
 TESTES REALIZADOS UTILIZANDO INSOMNIA, mas pode ser consumida e modificada com postman, os resultados podem ser exibidos no navegador também. 
 O inicio do Projeto contendo uma rota projeto final do modulo 4, com a rota dos produtos com as rotas de get,delete,patch e post, ainda sem o sqlite.
