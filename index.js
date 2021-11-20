@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 const middleware = require('./controller/midlewares')
 const produtos = require('./controller/produtos_controllers')
-const produtos_database = require('./database/produtos_database')
+const produtos_database = require('./database/sqlite')
 const rota = require('./controller/rotas')
 
 middleware(app)

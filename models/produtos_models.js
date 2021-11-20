@@ -1,4 +1,4 @@
-const produtos_database=require('../database/produtos_database')
+const produtos_database=require('../database/sqlite')
 class Produtos{
     constructor(id,nome_do_produto,fabricante_do_produto,valor_do_produto,modo_de_pagamento,descricao,avaliacoes,quantidade_de_produtos){
         this.id=id,
