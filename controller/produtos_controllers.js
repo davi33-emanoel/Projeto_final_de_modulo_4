@@ -1,7 +1,7 @@
 const Produtos = require("../models/produtos_models");
 const usuario_Dao = require("../DAO/usuario_Dao");
 const produtos = (app, produtos_database) => {
-  const novo_usuario_Dao = new usuario_Dao(produtos_database);
+const novo_usuario_Dao = new usuario_Dao(produtos_database);
   app.get("/produtos", (req, res) => {
     novo_usuario_Dao
       .seleciona_produtos()
