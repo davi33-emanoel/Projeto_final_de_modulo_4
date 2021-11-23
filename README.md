@@ -3,15 +3,12 @@
 Para poder utilizar o projeto basta baixar em sua maquina abrir o vscode ou seu editor de código preferido abrir a pasta do projeto nele, abra o terminal e depois rode o comando (npm i) sem os 
 parênteses no qual ira isntalar tudo que for necessario.
 
-TESTES REALIZADOS UTILIZANDO INSOMNIA, mas pode ser consumida e modificada com postman, os resultados podem ser exibidos no navegador também. 
-projeto final do modulo 4, com a entidade <produtos> contendo as rotas de get,delete,patch e post, ainda sem o sqlite.
-
-Para utiliziar a rota de post para poder utilizar a api é só colocar :```http://localhost:3000/produtos```
+TESTES REALIZADOS UTILIZANDO INSOMNIA, mas pode ser consumida e modificada com postman, os resultados podem ser exibidos no navegador também ou direto por este link ```https://api-final-modulo-4-resilia.herokuapp.com/```. 
+projeto final do modulo 4, com a entidade <produtos> contendo as rotas de get,delete,patch e post.
 
 Para criar um produto segue o esquema abaixo utilizando json:
 ```
 {
-    "id":"2",
     "nome_do_produto":"placa mãe fuleira",
     "fabricante_do_produto":"Giba",
     "valor_do_produto":"um milhao de dolares",
@@ -21,16 +18,15 @@ Para criar um produto segue o esquema abaixo utilizando json:
     "quantidade_de_produtos":"1" 
 }
 ```
-ps: É necessario criar um produto no inicio pois ainda esta usando banco de dados mocado como teste.
+ps: É necessario rodar o arquivo ```produtos_database``` se não foi criado automaticamente, rode o arquivo para criar um banco de dados dentro da api.
 
-Para testar a rota de modificação basta usar a seguinte rota :```http://localhost:3000/produtos/<o id do produto que vocẽ criou anteriormente>``` 
+Para testar a rota de patch basta usar a seguinte rota :```http://localhost:3000/produtos/<o id do produto que vocẽ criou anteriormente>``` 
 
 Segue abaixo exemplo de como modificar algum parametro da entidade.
 
 Exemplo modificando o nome da placa mãe:
 ```
-{ 
-    "id":"2", 
+{  
     "nome_do_produto":"placa mãe" <-- <anteriormente estava placa mãe fuleira>,
     "fabricante_do_produto":"Giba",
     "valor_do_produto":"um milhao de dolares",
@@ -41,6 +37,7 @@ Exemplo modificando o nome da placa mãe:
 }
 ```
 Agora para testar a rota de get basta utilizar :```http://localhost:3000/produtos```
+
 a lista de produtos cadastrados ira aparecer no consumidor de api ou navegador, para ver a modificação feita anteriormente basta localizar a id do produto
 que teve algum atributo modificado e colocar no caminho, ```http://localhost:3000/produtos/<id do produto qual você modificou o atributo>```
 
