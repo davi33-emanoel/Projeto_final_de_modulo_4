@@ -3,7 +3,7 @@
 Para poder utilizar o projeto basta baixar em sua maquina abrir o vscode ou seu editor de código preferido abrir a pasta do projeto nele, abra o terminal e depois rode o comando (npm i) sem os 
 parênteses no qual ira isntalar tudo que for necessario.
 
-TESTES REALIZADOS UTILIZANDO INSOMNIA, mas pode ser consumida e modificada com postman, os resultados podem ser exibidos no navegador também ou direto por este link ```https://api-final-modulo-4-resilia.herokuapp.com/```. 
+TESTES REALIZADOS UTILIZANDO INSOMNIA, mas pode ser consumida e modificada com postman, os resultados podem ser exibidos no navegador também ou direto por este link ```https://api-final-modulo-4-resilia.herokuapp.com/```. podendo testar a rota get já no navegador, e a roda get por id támbem como exemplo irei usar o produto com id 23, segue o link para vizualizar esse exemplo ```https://api-final-modulo-4-resilia.herokuapp.com/23```
 projeto final do modulo 4, com a entidade <produtos> contendo as rotas de get,delete,patch e post.
 
 Para criar um produto segue o esquema abaixo utilizando json:
