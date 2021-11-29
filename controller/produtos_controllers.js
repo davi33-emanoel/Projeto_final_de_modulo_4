@@ -24,7 +24,7 @@ const novo_usuario_Dao = new usuario_Dao(produtos_database);
       const body = req.body;
       const novo_produto = new Produtos(...Object.values(body))
       const resposta = await novo_usuario_Dao.adiciona_produtos(novo_produto)
-      res.status(200).json({resposta})
+      res.status(201).json({resposta})
       } catch (error) {
         res.status(404).json({ error });
       }

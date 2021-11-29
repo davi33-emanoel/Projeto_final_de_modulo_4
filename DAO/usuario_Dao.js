@@ -24,7 +24,7 @@ seleciona_produtos(){
 }
 seleciona_produtos_por_id(id){
     return new Promise((resolve, reject) =>{
-        this.produtos_database.all(`SELECT * FROM Produtos WHERE id =${id}`, (error,tabela)=>{
+        this.produtos_database.all('SELECT * FROM Produtos WHERE id =?',id, (error,tabela)=>{
             
             if(error){
                 reject({
@@ -61,7 +61,7 @@ adiciona_produtos(body){
 }
 deleta_produto(id){
     return new Promise((resolve, reject) =>{
-        this.produtos_database.all(`DELETE FROM Produtos WHERE id =${id}`, (error)=>{
+        this.produtos_database.all('DELETE FROM Produtos WHERE id =?',id, (error)=>{
             if(error){
                 reject({
                     "mensagem": error.message,
@@ -80,7 +80,7 @@ deleta_produto(id){
 }
 atualiza_dados_dos_produtos(id,body){
     return new Promise((resolve, reject)=> {
-        this.produtos_database.run(`UPDATE Produtos SET (nome_do_produto, fabricante_do_produto, valor_do_produto, modo_de_pagamento,descricao,avaliacoes,quantidade_de_produtos)=(?,?,?,?,?,?,?) WHERE id =${id}`,[body.nome_do_produto,body.fabricante_do_produto,body.valor_do_produto,body.modo_de_pagamento,body.descricao,body.avaliacoes,body.quantidade_de_produtos],(error)=>{
+        this.produtos_database.run('UPDATE Produtos SET (nome_do_produto, fabricante_do_produto, valor_do_produto, modo_de_pagamento,descricao,avaliacoes,quantidade_de_produtos)=(?,?,?,?,?,?,?) WHERE id =?',[body.nome_do_produto,body.fabricante_do_produto,body.valor_do_produto,body.modo_de_pagamento,body.descricao,body.avaliacoes,body.quantidade_de_produtos,id],(error)=>{
             if(error){
               reject({
                 "produtos" : error.message,
