@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS "Produtos" (
 const ADD_PRODUTOS_DATA = `
 INSERT INTO Produtos (nome_do_produto, fabricante_do_produto, valor_do_produto, modo_de_pagamento,descricao,avaliacoes,quantidade_de_produtos)
 VALUES 
-    (1,"placa mae","gigaa",250,"dinheiro cartao pix","placa mae ddr4","otímo custo beneficio",5),
-    (2,"placa mae","gigaa",250,"dinheiro cartao pix","placa mae ddr4","otímo custo beneficio",5),
+    ("placa mae","gigaa",250,"dinheiro cartao pix","placa mae ddr4","otímo custo beneficio",5),
+    ("placa mae","gigaa",250,"dinheiro cartao pix","placa mae ddr4","otímo custo beneficio",5),
 `
 console.log("passei aqui tbm");
 
