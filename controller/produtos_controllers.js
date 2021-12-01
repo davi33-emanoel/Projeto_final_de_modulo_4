@@ -1,10 +1,10 @@
 const Produtos = require("../models/produtos_models");
-const usuario_Dao = require("../DAO/usuario_Dao");
+const produtos_Dao = require("../DAO/produtos_Dao");
 const produtos = (app, produtos_database) => {
-const novo_usuario_Dao = new usuario_Dao(produtos_database);
+const novo_produtos_Dao = new produtos_Dao(produtos_database);
   app.get("/produtos",async (req, res) => {
     try {
-    const resposta = await novo_usuario_Dao.seleciona_produtos()
+    const resposta = await novo_produtos_Dao.seleciona_produtos()
     res.status(200).json({resposta})
     } catch (error) {
       res.status(404).json({ error });
@@ -13,7 +13,7 @@ const novo_usuario_Dao = new usuario_Dao(produtos_database);
   app.get("/produtos/:id",async (req, res) => {
     try {
       const id = parseInt(req.params.id)
-      const resposta = await novo_usuario_Dao.seleciona_produtos_por_id(id)
+      const resposta = await novo_produtos_Dao.seleciona_produtos_por_id(id)
       res.status(200).json({resposta})
       } catch (error) {
         res.status(404).json({ error });
@@ -23,7 +23,7 @@ const novo_usuario_Dao = new usuario_Dao(produtos_database);
     try {
       const body = req.body;
       const novo_produto = new Produtos(...Object.values(body))
-      const resposta = await novo_usuario_Dao.adiciona_produtos(novo_produto)
+      const resposta = await novo_produtos_Dao.adiciona_produtos(novo_produto)
       res.status(201).json({resposta})
       } catch (error) {
         res.status(404).json({ error });
@@ -34,7 +34,7 @@ const novo_usuario_Dao = new usuario_Dao(produtos_database);
       const body = req.body
       const id = parseInt(req.params.id)
       const novo_produto = new Produtos(...Object.values(body))
-      const resposta = await novo_usuario_Dao.atualiza_dados_dos_produtos(id,novo_produto)
+      const resposta = await novo_produtos_Dao.atualiza_dados_dos_produtos(id,novo_produto)
       res.status(200).json({resposta})
       } catch (error) {
         res.status(404).json({ error });
@@ -43,7 +43,7 @@ const novo_usuario_Dao = new usuario_Dao(produtos_database);
   app.delete("/produtos/:id",async (req, res) => {
     try {
       const id = parseInt(req.params.id)
-      const resposta = await novo_usuario_Dao.deleta_produto(id)
+      const resposta = await novo_produtos_Dao.deleta_produto(id)
       res.status(200).json({resposta})
       } catch (error) {
         res.status(404).json({ error });

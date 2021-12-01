@@ -1,4 +1,4 @@
-class usuario_Dao{
+class produtos_Dao{
     constructor(produtos_database){
         this.produtos_database=produtos_database
     }
@@ -96,4 +96,4 @@ atualiza_dados_dos_produtos(id,body){
         })
 }
 }
-module.exports = usuario_Dao
+module.exports = produtos_Dao
