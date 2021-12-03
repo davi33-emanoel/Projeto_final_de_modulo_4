@@ -1,7 +1,7 @@
 const rotas = (app)=>{
     
     app.get('/', (req, res)=> {
-        res.send(`<h1>I'm not Dead</h1>`)
+        res.send(`<h1>Bem vindo a loja de informatica</h1>`)
     })
 }
 
