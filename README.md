@@ -9,7 +9,7 @@ projeto final do modulo 4, com a entidade <produtos> contendo as rotas de get,de
 Para criar um produto segue o esquema abaixo utilizando json:
 ```
 {
-    "nome_do_produto":"placa mãe fuleira",
+    "nome_do_produto":"placa mãe de entrada",
     "fabricante_do_produto":"Giba",
     "valor_do_produto":"um milhao de dolares",
     "modo_de_pagamento":"rim",
@@ -20,14 +20,12 @@ Para criar um produto segue o esquema abaixo utilizando json:
 ```
 ps: É necessario rodar o arquivo ```produtos_database``` se não foi criado automaticamente, rode o arquivo para criar um banco de dados dentro da api.
 
-Para testar a rota de patch basta usar a seguinte rota :```http://localhost:3000/produtos/<o id do produto que vocẽ criou anteriormente>``` 
-
 Segue abaixo exemplo de como modificar algum parametro da entidade.
 
 Exemplo modificando o nome da placa mãe:
 ```
 {  
-    "nome_do_produto":"placa mãe" <-- <anteriormente estava placa mãe fuleira>,
+    "nome_do_produto":"placa mãe" <-- <anteriormente estava placa mãe de entrada>,
     "fabricante_do_produto":"Giba",
     "valor_do_produto":"um milhao de dolares",
     "modo_de_pagamento":"rim",
@@ -35,12 +33,16 @@ Exemplo modificando o nome da placa mãe:
     "avaliacoes":"travou meu olho de tanto fps",
     "quantidade_de_produtos":"1"
 }
+
+Para aplicar a modificação basta usar a  rota de patch :```http://localhost:3000/produtos/<o id a ser modificado>``` ou então ```https://api-final-modulo-4-resilia.herokuapp.com/produtos/<o id a ser modificado>```
+
 ```
-Agora para testar a rota de get basta utilizar :```http://localhost:3000/produtos```
+Agora para testar a rota de get basta utilizar :```http://localhost:3000/produtos``` ou então ```https://api-final-modulo-4-resilia.herokuapp.com/produtos```
 
 a lista de produtos cadastrados ira aparecer no consumidor de api ou navegador, para ver a modificação feita anteriormente basta localizar a id do produto
-que teve algum atributo modificado e colocar no caminho, ```http://localhost:3000/produtos/<id do produto qual você modificou o atributo>```
+que teve algum atributo modificado e colocar no caminho, ```http://localhost:3000/produtos/<id do produto qual você modificou o atributo>``` ou ```https://api-final-modulo-4-resilia.herokuapp.com/<id do produto qual você modificou o atributo>```
 
-Por ultimo a rota de delete que consiste em utilizar :```http://localhost:3000/produtos/<o id do produto a ser excluido>.```
+Por ultimo a rota de delete que consiste em utilizar :```http://localhost:3000/produtos/<o id do produto a ser excluido>.```e também ```https://api-final-modulo-4-resilia.herokuapp.com/<id do produto excluido>```
 
-Depois você pode verificar na rota get que eles não esta mais lá.
+Depois você pode verificar na rota get que eles não esta mais lá. 
+Modificações todas feitas pelo Insomnia. e podendo ser consumida pela web ou pelo proprío programa.
