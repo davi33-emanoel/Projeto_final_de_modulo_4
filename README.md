@@ -33,10 +33,10 @@ Exemplo modificando o nome da placa mãe:
     "avaliacoes":"travou meu olho de tanto fps",
     "quantidade_de_produtos":"1"
 }
+```
 
 Para aplicar a modificação basta usar a  rota de patch :```http://localhost:3000/produtos/<o id a ser modificado>``` ou então ```https://api-final-modulo-4-resilia.herokuapp.com/produtos/<o id a ser modificado>```
 
-```
 Agora para testar a rota de get basta utilizar :```http://localhost:3000/produtos``` ou então ```https://api-final-modulo-4-resilia.herokuapp.com/produtos```
 
 a lista de produtos cadastrados ira aparecer no consumidor de api ou navegador, para ver a modificação feita anteriormente basta localizar a id do produto
