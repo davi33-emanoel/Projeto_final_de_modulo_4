@@ -20,7 +20,7 @@ INSERT INTO Produtos (nome_do_produto, fabricante_do_produto, valor_do_produto, 
 VALUES 
     ("placa mae h81","MSI",250,"dinheiro, cartao, pix","socket 1150 2x ddr3","otímo custo beneficio",5,"https://asset.msi.com/resize/image/global/product/five_pictures1_2918_20140407164857.png62405b38c58fe0f07fcef2367d8a9ba1/600.png"),
 
-    ("placa mae A320M-S2H","GIGABYTE",650,"dinheiro, cartao, pix","placa mae ddr4","otímo custo beneficio",5,"https://images.kabum.com.br/produtos/fotos/94709/94709_1517494361_index_gg.jpg"),
+    ("placa mae A320M S2H","GIGABYTE",650,"dinheiro, cartao, pix","placa mae ddr4","otímo custo beneficio",5,"https://images.kabum.com.br/produtos/fotos/94709/94709_1517494361_index_gg.jpg"),
 
     ("RTX 3070","NVIDIA",7999,"pix, dinheiro, cartão","NVIDIA GeForce RTX 3070 Ti TRINITY LHR, 19 Gbps, 8GB GDDR6X","Opinião Geral:gostei da placa, refrigeração melhor que a msi ventus 3x",10,"https://images.kabum.com.br/produtos/fotos/166105/-pre-venda-placa-de-video-zotac-nvidia-geforce-rtx-3070ti-trinity-8gb-19-gbps-gddr6x-ray-tracing-dlss-rgb-zt-a30710d-10p_1623326241_gg.jpg"),
 
@@ -44,17 +44,17 @@ VALUES
 
     ("Ryzen 7 5800X","AMD",2189,"pix, dinheiro, cartão","Processador AMD Ryzen 7 5800X, 8-Core, 16-Threads, 3.8GHz (4.7GHz Turbo), Cache 36MB, AM4","Opinião Geral:Processador fora de série (topssimo), chegou essa semana já instalei e está rodando muito bem.",10,"https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000063wof_1.jpg"),
 
-    ("i5-12600K","INTEL",2199,"pix, dinheiro, cartão","Processador Intel Core i5-12600K, Cache 20MB, 3.7GHz (4.9GHz Max Turbo), LGA 1700","Opinião Geral:Em núcleos de desempenho. O desempenho varia de acordo com o uso, configuração e outros fatores.",10,"https://images.kabum.com.br/produtos/fotos/241046/processador-intel-core-i5-12600k-cache-16mb-3-7ghz-4-9ghz-max-turbo-lga-1700-bx8071512600k_1634828162_gg.jpg"),
+    ("i5 12600K","INTEL",2199,"pix, dinheiro, cartão","Processador Intel Core i5-12600K, Cache 20MB, 3.7GHz (4.9GHz Max Turbo), LGA 1700","Opinião Geral:Em núcleos de desempenho. O desempenho varia de acordo com o uso, configuração e outros fatores.",10,"https://images.kabum.com.br/produtos/fotos/241046/processador-intel-core-i5-12600k-cache-16mb-3-7ghz-4-9ghz-max-turbo-lga-1700-bx8071512600k_1634828162_gg.jpg"),
 
     ("Threadripper PRO 3955WX","AMD",7299,"pix, dinheiro, cartão","Processador AMD Ryzen Threadripper PRO 3955WX, 16-Core, 32-Threads, 3.9GHz (4.3GHz Turbo), Cache 72MB","Opinião Geral:Em núcleos de desempenho. O desempenho varia de acordo com o uso, configuração e outros fatores.",10,"https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000167wof1.jpg"),
 
-    ("Core i9-10900K","INTEL",3449,"pix, dinheiro, cartão","PProcessador Intel Core i9-10900K, Cache 20MB, 3.7GHz (5.3GHz Max Turbo), LGA 1200 - BX8070110900K","Opinião Geral:excelente processador para games e trabalhos em aplicativos pesados ótimo em tudo vale a pena comprar!!!!!!!!",10,"https://images.kabum.com.br/produtos/fotos/113000/processador-intel-core-i9-10900k-cache-20mb-3-7ghz-5-3ghz-max-turbo-lga-1200-bx8070110900k_1637699992_gg.jpg"),
+    ("Core i9 10900K","INTEL",3449,"pix, dinheiro, cartão","PProcessador Intel Core i9-10900K, Cache 20MB, 3.7GHz (5.3GHz Max Turbo), LGA 1200 - BX8070110900K","Opinião Geral:excelente processador para games e trabalhos em aplicativos pesados ótimo em tudo vale a pena comprar!!!!!!!!",10,"https://images.kabum.com.br/produtos/fotos/113000/processador-intel-core-i9-10900k-cache-20mb-3-7ghz-5-3ghz-max-turbo-lga-1200-bx8070110900k_1637699992_gg.jpg"),
 
     ("Ryzen 9 5950X","AMD",4249,"pix, dinheiro, cartão","Processador AMD Ryzen 9 5950X, 16-Core, 32-Threads, 3.4GHz (4.9GHz Turbo), Cache 72MB, AM4","Opinião Geral:Tá rodando meu Freefire no máximo aqui, mó daora.",10,"https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000059wof_1.jpg"),
 
-    ("Core i9-12900K","INTEL",4349,"pix, dinheiro, cartão","Processador Intel Core i9-12900K, Cache 30MB, 3.2GHz (5.2GHz Max Turbo), LGA 1700 - BX8071512900K","Opinião Geral:Desempenho revolucionário e capacidade para multitarefas",10,"https://images.kabum.com.br/produtos/fotos/241050/processador-intel-core-i9-12900k-cache-30mb-3-2ghz-5-2ghz-max-turbo-lga-1700-bx8071512900k_1635255797_gg.jpg"),
+    ("Core i9 12900K","INTEL",4349,"pix, dinheiro, cartão","Processador Intel Core i9-12900K, Cache 30MB, 3.2GHz (5.2GHz Max Turbo), LGA 1700 - BX8071512900K","Opinião Geral:Desempenho revolucionário e capacidade para multitarefas",10,"https://images.kabum.com.br/produtos/fotos/241050/processador-intel-core-i9-12900k-cache-30mb-3-2ghz-5-2ghz-max-turbo-lga-1700-bx8071512900k_1635255797_gg.jpg"),
 
-    ("Core i7-12700K","INTEL",4349,"pix, dinheiro, cartão","Processador Intel Core i7-12700K, Cache 25MB, 3.6GHz (5.0GHz Max Turbo), LGA 1700 - BX8071512700K","Opinião Geral:Desempenho, qualidade e performance sem iguais",10,"https://images.kabum.com.br/produtos/fotos/241048/processador-intel-core-i7-12700k-cache-25mb-3-6ghz-5-0ghz-max-turbo-lga-1700-bx8071512700k_1634830260_gg.jpg"),
+    ("Core i7 12700K","INTEL",4349,"pix, dinheiro, cartão","Processador Intel Core i7-12700K, Cache 25MB, 3.6GHz (5.0GHz Max Turbo), LGA 1700 - BX8071512700K","Opinião Geral:Desempenho, qualidade e performance sem iguais",10,"https://images.kabum.com.br/produtos/fotos/241048/processador-intel-core-i7-12700k-cache-25mb-3-6ghz-5-0ghz-max-turbo-lga-1700-bx8071512700k_1634830260_gg.jpg"),
 
     ("MAG B560M","MSI",859,"pix, dinheiro, cartão","Interfaces de unidade de armazenamento com suporte: M.2, SATA III","Opinião Geral:Soquete do processador: LGA 1151 (soquete H4)",10,"https://www.techinn.com/f/13846/138461560_4/msi-placa-mae-mag-b560m-mortar.jpg?_gl=1*144qwmc*_up*MQ..&gclid=Cj0KCQiAoNWOBhCwARIsAAiHnEiOR1TvYkVMnta9SIzZ5vIjGQIcDaCyc6juZmF5dS5W8KJN9oqe_dYaAmMlEALw_wcB"),
 
