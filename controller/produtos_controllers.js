@@ -21,7 +21,7 @@ const novo_produtos_Dao = new produtos_Dao(produtos_database);
   });
   app.get("/produtos/nome/:nome_do_produto",async (req, res) => {
     try {
-      const nome_do_produto = req.params.nome_do_produto;
+      const nome_do_produto = req.params.nome_do_produto.split("-").join(" ");
       const resposta = await novo_produtos_Dao.seleciona_produtos_por_nome(nome_do_produto)
       res.status(200).json({resposta})
       } catch (error) {
